@@ -52,7 +52,7 @@ flashrom -p internal:laptop=force_I_want_a_brick -w build/coreboot.rom
 
 ## Other stuff in this repo
 
-This repo also includes a [misc](misc/README.md) folder with some stuff I use on my X200.
+This repo also includes a [misc](misc/) folder with some stuff I use on my X200.
 
 Please note that the scripts included in the misc folder are really badly written
 and might not work for you. The main reason why I even include them here is so that I can find them later

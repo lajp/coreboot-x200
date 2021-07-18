@@ -5,4 +5,4 @@ that have something (or nothing) to do with my X200 coreboot
 setup... Use at own risk
 
 ## Stuff:
-* [Battery-thresholds systemd-service](battery-thresholds.md)
+* [Battery-thresholds systemd-service](battery-thresholds/)
