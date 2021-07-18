@@ -1,0 +1,10 @@
+[Unit]
+Description=A Simple systemd-service to apply battery thresholds on a corebooted X200
+
+[Service]
+Type=oneshot
+RemainAfterExit=no
+ExecStart=ectool -w 0x3 -z 0x44
+ExecStart=ectool -w 0x24 -z 0xd0
+ExecStart=ectool -w 0x3 -z 0x40
+ExecStart=ectool -w 0x24 -z 0xc6
